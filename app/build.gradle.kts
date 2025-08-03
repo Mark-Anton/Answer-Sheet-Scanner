@@ -49,6 +49,18 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+    // CameraX
+    implementation(libs.androidx.camera.camera2)
+    implementation(libs.androidx.camera.lifecycle)
+    implementation(libs.androidx.camera.view)
+// ML Kit for text recognition (optional, for answer key parsing)
+    implementation(libs.text.recognition)
+// Kotlin coroutines, lifecycle, etc.
+    implementation(libs.androidx.lifecycle.runtime.ktx.v262)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.androidx.constraintlayout)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
